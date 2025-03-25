@@ -206,10 +206,10 @@ nav button {
   }
   .secImg video{
     position: absolute;
-    top: 20%; /* Adjust this value as needed */
-    left: 13%; /* Adjust this value as needed */
-    width: 74%; /* Adjust width to fit inside TV */
-    height: 60%; /* Adjust height to fit inside TV */
+    top: 20%;  
+    left: 13%;  
+    width: 74%;  
+    height: 60%;   
     z-index: -1;
   }
   section.first > div{
@@ -223,4 +223,50 @@ nav button {
   section.first > div :nth-child(2) {
     font-size: 17px;
   }
-    
+  .faq h2,
+.faq .faqbox span {
+    color: grey;
+}
+ .faq {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.faq h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: grey;
+}
+
+.faqbox {
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #333;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+.faqbox:hover {
+    background-color: #444;
+}
+.faqbox {
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #333;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: left; /* Aligns text to the left */
+    transition: 0.3s ease-in-out;
+    padding-left: 30px; /* Adds some space from the left */
+}
